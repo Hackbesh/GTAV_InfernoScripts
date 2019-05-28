@@ -74,6 +74,15 @@ namespace Inferno.ChaosMode.WeaponProvider
                 Weapon.AssaultRifleMk2,
                 Weapon.CarbineRifleMk2,
                 Weapon.HeavySniperMk2,
+                Weapon.RevolverMk2,
+                Weapon.DoubleAction,
+                Weapon.RayPistol,
+                Weapon.RayCarbine,
+                Weapon.PumpShotgunMk2,
+                Weapon.SpecialCarbineMk2,
+                Weapon.BullpupRifleMk2,
+                Weapon.MarksmanRifleMk2,
+                Weapon.RayMinigun,
             };
 
             //近距離系
@@ -97,6 +106,7 @@ namespace Inferno.ChaosMode.WeaponProvider
                 Weapon.Poolcue,
                 Weapon.Wrench,
                 Weapon.Battleaxe,
+                Weapon.StoneHatchet,
             };
 
             //投げる系
@@ -134,6 +144,8 @@ namespace Inferno.ChaosMode.WeaponProvider
                 Weapon.COMPACTLAUNCHER,
                 Weapon.PistolMk2,
                 Weapon.SMGMk2,
+                Weapon.RevolverMk2,
+                Weapon.DoubleAction,
             };
 
             AllWeapons = ShootWeapons.Concat(ClosedWeapons).Concat(ProjectileWeapons).ToArray();
